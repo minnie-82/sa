@@ -1,0 +1,68 @@
+//classname and filename should be the same
+
+ 
+1. JAVA RMI :
+      a. file-> new -> Java project/ Dynamic Web Project  -> proj name ->Finish
+      
+      b.proj right click->new -> Package -> Package Name
+     
+  //FOR INTERFACE
+      c. Package name -> New -> Interface / Class -> Paste code and solve red ones (add require...)
+
+  //For SERVER
+      d. Package name -> New -> Class-> Paste code and solve red ones (add require...)
+
+  //FOR CLIENT
+      e. Package name -> New -> Class-> Paste code and solve red ones (add require...)
+
+     F. Module_info.java -> add in function one line  ---> exports YOUR Package name; (if created file using dynamic web proj then donot need to write)
+
+ then run SERVER run as Java Application and Then run CLIENT  as java application
+
+
+
+2.  FILE HANDLING / JAVA WRITE TO FILE:
+   
+      a. file-> new -> Java project -> proj name ->Finish
+      
+      b.proj right click->new -> Package -> Package Name
+    
+      c. Package name -> New -> Class-> classname --> Paste code and solve red ones (add require...)
+      
+      d. CHANGE the FILE LOCATION
+
+then run code as Java application and check the file in the given location that it contains text or not
+
+     
+            
+
+3. SOCKET PROGRAMMING
+
+       a. file-> new -> Java project -> proj name ->Finish
+      
+      b.proj right click->new -> Package -> Package Name
+     
+     //CREATE 2 FILES
+      c. Package name -> New -> Class-> Dsender-> Paste code and solve red ones (add require...)
+      d. Package name -> New -> Class-> Dreceiver-> Paste code and solve red ones (add require...)
+
+     // For RUNNING
+      e . Open folder where ur file has been stored write CMD  and open 2 CMD PROMPT 
+      F. in 1st -> javac Dsender.java --> java Dsender.java-> enter your message will come
+      g. in  2nd  -> javac Dreceiver.java --> java Dreceiver.java-> waiting for message will come
+
+  NOTE FIRST WRITE IN CMD FOR RECIVER 
+
+
+
+4.   WEB SERVICES
+
+   V VALA METHOD
+
+      1. new -> Proj
+                  |
+                  -> SPRING BOOT --> SPRING STARTER ---> pROJ NAME -> CLICK WEB --> SPRING WEB -> FINISH
+
+    run package as as Java application and uske baadd  opEN BROWSER AND TYPE localhost:8080 and coppy the path and paste
+
+
